@@ -1,4 +1,4 @@
-# Trabajo PreEntrega 1 Herrador
+# Trabajo PreEntrega 2 Herrador
 
 ## _E-commerce - Córdoba Tecno_
 
