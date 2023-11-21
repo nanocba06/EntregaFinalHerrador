@@ -4,7 +4,7 @@
 
 Live Demo:
 
-- <a href="https://nanocba06.github.io/PreEntrega1Herrador/"> Carrito de Compras </a>
+- <a href="https://nanocba06.github.io/PreEntrega2Herrador/"> Carrito de Compras </a>
 
 ## License
 
