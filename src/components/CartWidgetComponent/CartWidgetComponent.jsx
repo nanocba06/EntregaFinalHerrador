@@ -13,6 +13,7 @@ const CartWidgetComponent = () => {
         <FontAwesomeIcon style={iconStyles} icon={faCartShopping} />
         <span style={{fontSize: '1.3rem'}}>7</span>
     </div>
+    
   )
 }
 
