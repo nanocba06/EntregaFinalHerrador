@@ -1,22 +1,37 @@
-import ItemDetailContainer from '../components/ItemDetailContainer/ItemDetailContainer';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
+import React from "react";
+import Card from "react-bootstrap/Card";
 import { useParams } from "react-router-dom";
+import { useSingleProduct } from "../hooks/useProducts";
+import { ItemQuantitySelector } from "../components/ItemQuantitySelector/ItemQuantitySelector";
+import { LoaderComponent} from "../components/LoaderComponent/LoaderComponent"
 
-const Item = () => {
+export const Item = () => {
 
-    const [product, setProduct] = useState({});
-    const { id } = useParams();
-    
-    useEffect(() => {
-      axios
-      .get(`https://dummyjson.com/products/${id}`)
-      .then((res) => {setProduct(res.data);
-      })
-      .catch((error) => console.log(error));
-    }, [id]);  
+    const { productId } = useParams();
+    const { product, loading, error } = useSingleProduct(productId);
 
-  return <ItemDetailContainer product={product} />
+    return (
+
+      <div style={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "center",
+        alignItems: "center",
+      }}>
+      {loading ? (
+        <LoaderComponent />
+      ) : error ? (
+        <div>Hubo un error</div>
+      ) : (
+        <Card key={product.id} style={{ width: "30rem", margin: "3rem" }}>
+        <Card.Img style={{height: "27rem"}} variant="top" src={product.thumbnail} />
+        <Card.Body>
+          <Card.Title>{product.title}</Card.Title>
+          <Card.Text>{product.description}</Card.Text>
+        </Card.Body>
+        <ItemQuantitySelector />
+      </Card>
+      )}
+    </div>
+    )
 }
-
-export default Item
