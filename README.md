@@ -1,10 +1,10 @@
-# Trabajo PreEntrega 1 Herrador
+# Trabajo Final Herrador
 
-## _E-commerce - Córdoba Tecno_
+## _E-commerce - Córdoba Game-
 
-Live Demo:
+Gif Demo:
 
-- <a href="https://nanocba06.github.io/PreEntrega1Herrador/"> Carrito de Compras </a>
+![demo](https://github.com/nanocba06/PreEntrega2Herrador/assets/86470362/a5d98700-79cb-482a-9ab3-e8bd0f028897)
 
 ## License
 
