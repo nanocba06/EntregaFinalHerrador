@@ -1,6 +1,6 @@
-# Trabajo PreEntrega 2 Herrador
+# Trabajo Final Herrador
 
-## _E-commerce - Córdoba Tecno_
+## _E-commerce - Córdoba Game-
 
 Gif Demo:
 
