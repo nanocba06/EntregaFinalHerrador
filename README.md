@@ -1,10 +1,14 @@
 # Trabajo Final Herrador
 
-## _E-commerce - Córdoba Game-
+## E-commerce - Córdoba Game -
 
 Gif Demo:
 
-![demo](https://github.com/nanocba06/PreEntrega2Herrador/assets/86470362/a5d98700-79cb-482a-9ab3-e8bd0f028897)
+![screen-capture-_4_](https://github.com/nanocba06/EntregaFinalHerrador/assets/86470362/c137e0a6-fba2-4478-be92-934f354a3d11)
+
+Deploy:
+
+https://entrega-final-herrador.vercel.app/
 
 ## License
 
